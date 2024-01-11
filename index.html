@@ -18,13 +18,15 @@
      <!-- font awesome cdn link  -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
  
+     <!-- custom css file link  -->
+     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header section -->
     <header>
-        <div >
-            <a href="#"><span>H</span>ealth <span>C</span>are.</a>
-            <nav >
+        <div class="container">
+            <a href="#" class="logo"><span>H</span>ealth <span>C</span>are.</a>
+            <nav class="nav">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -38,8 +40,253 @@
         
         </div>
     </header>
+    <!-- home section -->
+    <section class="home" id="home"> 
+        <div class="container">
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+                <div class="col-md-6 pr-md-5" data-aos="zoom-in">
+                    <img src="images/Doctors-bro (1).svg" width="100%" alt="">
+                </div>
 
-    <p>Hellooo HealthCare</p>
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
+                    <h1><span>Stay</span> Safe, <span>Stay</span> Healthy.</h1>
+                    <h3>Caring For You.</h3>
+                    <a href=""><button class="button">Learn More.</button></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-md-6 content" data-aos="fade-right">
+                    <div class="box">
+                        <h3><i class="fas fa-ambulance"></i> ambulance services</h3>
+                        <p>Providing swift and reliable ambulance services, ensuring timely response to emergencies with a focus on patient care and safety.</p>
+                    </div>
+                    <div class="box">
+                        <h3><i class="fas fa-procedures"></i>emergency rooms</h3>
+                        <p>State-of-the-art emergency rooms equipped with advanced medical facilities and a dedicated team of healthcare professionals, offering immediate care in critical situations.</p>
+                    </div>
+                    <div class="box">
+                        <h3><i class="fas fa-stethoscope"></i> free check-ups</h3>
+                        <p>Promoting preventive healthcare by providing complimentary check-ups, ensuring regular health monitoring and early detection of potential issues for a healthier community.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block" data-aos="fade-left">
+                    <img src="images/clipart-doctor-lady-doctor-11.png" width="100%" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- facility section -->
+
+    <section class="facility" id="facility">
+        <div class="container">
+            <h1 class="heading"><span>'</span> our facilities <span>'</span></h1>
+            <div class="box-container">
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/img11.jpg" title="our team">
+                        <img src="images/img11.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/img1.jpg" title="our lap">
+                        <img src="images/img1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/hospital-840135_640.jpg" title="emergency rooms">
+                        <img src="images/hospital-840135_640.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/img3.jpg" title="expert doctors">
+                        <img src="images/img3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/labs.jpg" title="expert doctors">
+                        <img src="images/labs.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/free.jpg" title="expert doctors">
+                        <img src="images/free.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/doc.jpg" title="expert doctors">
+                        <img src="images/doc.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/bed.jpg" title="expert rooms">
+                        <img src="images/bed.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <a href="images/beds.jpg" title="enough beds">
+                        <img src="images/beds.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Review Section -->
+    <section class="review" id="review">
+        <div class="container">
+            <h1 class="heading"><span>'</span> People's Reviews <span>'</span></h1>
+            <div class="box-container">
+                <div class="box" data-aos="fade-right">
+                    <p>Exceptional service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quaerat omnis minima quae ullam voluptatibus, dolorum maiores distinctio ex corporis.</p>
+                    <h3>Muhammed Samy</h3>
+                    <span>January 11, 2024</span>
+                    <img src="images/2.jpg" alt="Reviewer's Photo">
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <p>Highly recommended! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quaerat omnis minima quae ullam voluptatibus, dolorum maiores distinctio ex corporis.</p>
+                    <h3>Karim Elsaaed</h3>
+                    <span>January 10, 2024</span>
+                    <img src="images/testimonial-2.jpg" alt="Reviewer's Photo">
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <p>Outstanding experience! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas quaerat omnis minima quae ullam voluptatibus, dolorum maiores distinctio ex corporis.</p>
+                    <h3>Fatma Elbadry</h3>
+                    <span>January 9, 2024</span>
+                    <img src="images/testimonial-4.jpg" alt="Reviewer's Photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter section -->
+    <section class="counter">
+        <div class="container">
+            <div class="box-container">
+                <div class="box" data-aos="fade-up">
+                    <i class="fas fa-hospital"></i>
+                    <span>150+</span>
+                    <h3>Hospitals</h3>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <i class="fas fa-users"></i>
+                    <span>100+</span>
+                    <h3>staff</h3>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <i class="fas fa-smile"></i>
+                    <span>1200+</span>
+                    <h3>happy petients</h3>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <i class="fas fa-procedures"></i>
+                    <span>170+</span>
+                    <h3>bed facilities</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="container min-vh-100">
+            <div class="row justify-content-center">
+                <h1 class="heading"><span>'</span> make an appointment <span>'</span></h1>
+                <div class="col-md-10" data-aos="flip-down">
+                    <form action="">
+                        <div class="inputBox">
+                            <input class="rounded" type="text" placeholder="full name">
+                            <input class="rounded" type="number" placeholder="phone">
+                        </div>
+                        <div class="inputBox">
+                            <input class="rounded" type="email" placeholder="email">
+                            <select class="rounded" name="" id="">
+                                <option value="disabled selected">make an appointment</option>
+                                <option value="09-11 am">09-11 am</option>
+                                <option value="11-03 pm">11-03 pm</option>
+                                <option value="03-06 am">03-06 pm</option>
+                                <option value="06-09 am">06-09 pm</option>
+                            </select>
+                        </div>
+                        <textarea class="rounded" name="" id="" cols="30" rows="10" placeholder="message (optional)"></textarea>
+                        <input type="submit" value="make appointment" class="button rounded">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- post section -->
+    <section class="post" id="post">
+        <div class="container min-vh-100">
+            <h1 class="heading"><span>'</span> our posts <span>'</span></h1>
+            <div class="box-container">
+                <div class="box" data-aos="fade-right">
+                    <img src="images/pics.jpg" alt="">
+                    <div class="content">
+                        <span>jan 5, 2024</span>
+                        <a href="#"><h3>Unveiling the Future of Healthcare</h3></a>
+                        <p>Discover the latest advancements and innovations in healthcare that redefine the way we approach well-being and medical care.</p>
+                        <a href=""><button class="button">learn more</button></a>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up">
+                    <img src="images/img3.jpg" alt="">
+                    <div class="content">
+                        <span>jan 4, 2024</span>
+                        <a href="#"><h3>Empowering Patients: A Holistic Approach</h3></a>
+                        <p>Explore how our patient-centric approach fosters empowerment, compassion, and a personalized healthcare experience for all.</p>
+                        <a href=""><button class="button">learn more</button></a>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-left">
+                    <img src="images/labs.jpg" alt="">
+                    <div class="content">
+                        <span>jan 1, 2024</span>
+                        <a href="#"><h3>Innovations in Medical Laboratories</h3></a>
+                        <p>Learn about cutting-edge technologies and breakthroughs in medical laboratories that shape the future of diagnostics and research.</p>
+                        <a href=""><button class="button">learn more</button></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!-- footer section -->
+    <section class="footer">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right">
+                    <a href="#" class="logo"><span>H</span>ealth <span>C</span>are.</a>
+                    <p>Welcome to Your Health Hub, where we redefine healthcare by putting your well-being at the forefront. Our mission is to provide exceptional medical services, foster a culture of prevention, and empower individuals to take control of their health journey.</p>
+
+
+                </div>
+                <div class="col-md-4 text-center" data-aos="fade-up">
+                    <h3>links</h3>
+                    <a href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="#facility">facility</a>
+                    <a href="#review">review</a>
+                    <a href="#contact">contact</a>    
+                    <a href="#post">post</a>            
+                </div>
+                <div class="col-md-4 text-center" data-aos="fade-left">
+                    <h3>social</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                    <a href="https://github.com/muhammedsaamy" target="_blank">github</a>           
+                </div>
+            </div>
+        </div>
+        <h1 class="credit text-center mx-auto">create by <span>Muhammed Samy</span> | all rights reserved.</h1>
+    </section>
+
+
 
 
     
@@ -51,6 +298,19 @@
 
 <!-- aos js file cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- custom js link  -->
+<script src="js/main.js"></script>
+
+
+<script>
+
+AOS.init({
+    duration:1000,
+    delay:400
+});
+
+</script>
     
 </body>
 </html>
