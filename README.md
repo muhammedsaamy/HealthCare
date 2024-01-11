@@ -8,3 +8,7 @@ Bootstrap Framework: Utilizing the power of Bootstrap for responsive design, the
 Data Interactivity with JavaScript: Harnessing the capabilities of JavaScript to enhance user interactions, providing a dynamic and engaging experience for visitors.
 
 AOS Library: Employing AOS (Animate On Scroll) library to add smooth and eye-catching animations, elevating the overall aesthetics of the website.
+
+## live demo
+
+https://muhammedsaamy.github.io/HealthCare/
